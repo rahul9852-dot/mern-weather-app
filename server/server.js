@@ -27,10 +27,10 @@ if (process.env.NODE_ENV === 'production') {
     });
 }
 
-//Connect to Mongo
-// mongoose.connect(process.env.DB, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// }).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
+// Connect to Mongo
+mongoose.connect(process.env.DB, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
 
-// app.listen(port, () => console.log(`Listening on port ${port}`));
+app.listen(port, () => console.log(`Listening on port ${port}`));

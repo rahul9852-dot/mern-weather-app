@@ -24,7 +24,7 @@ class Weather {
          * - "process.env.WEATHER_KEY" is the api key that we get from the .env file
          * - "units" query can be either imperial (Fahrenheit) or metric (Celsius)
          */
-        let url = `${baseUrl}?zip=${zipCode},us&appid=${process.env.WEATHER_KEY}&units=${tempMetric}`;
+        let url = `${baseUrl}?zip=${zipCode},IN&appid=${process.env.WEATHER_KEY}&units=${tempMetric}`;
 
         // Awaitable call to get the information from the weather api and then return the data.
         // TODO: Add error handling for this call
