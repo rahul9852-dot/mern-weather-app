@@ -1,7 +1,7 @@
 ## What is this?
-This is a MERN stack web application that you can add to your portfolio and mess around with.
+Mern Weather ForeCast App
 
-Demo: https://mernweatherapp.herokuapp.com/
+Demo: Deployed soon
 
 **Weathering With You** is a weather web app to get the current weather data of the zip code you submit into the form.
  Consists of 4 main components
@@ -17,7 +17,7 @@ Prereq apps to have downloaded
 
 Clone the repo:
 ```
-git clone https://github.com/JinKim7/mern-weather-app.git
+git clone https://github.com/rahul9852-dot/mern-weather-app
 ```
 
 Download all npm packages for both client/server
@@ -49,7 +49,7 @@ To get the cluster ID, go to **Clusters** and click on **Connect > Connect your 
 Make an account at   and go to the [api keys](https://home.openweathermap.org/api_keys) section.
 Copy/pasta that key to the .env file using `WEATHER_KEY` as your key
 ```
-WEATHER_KEY=1234567890asdfjkl
+WEATHER_KEY=84b3114c5002625dccffae51fc27fa7b
 ```
 
 ## Run Locally
@@ -72,6 +72,3 @@ This is command will your client and server concurrently.
 
 The service will auto-watch both frontend and backend, so no need to restart to see your changes.  
 Once you save your changes, it'll auto-refresh to view your changes.
-
-### Deploy
-Connect this repo to heroku and it'll auto deploy once you update master, if that's the branch heroku is watching to auto deploy.
