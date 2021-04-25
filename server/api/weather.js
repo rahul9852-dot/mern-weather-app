@@ -29,6 +29,8 @@ class Weather {
         // Awaitable call to get the information from the weather api and then return the data.
         // TODO: Add error handling for this call
         return (await axios(url)).data;
+        
+
     }
 
     /**

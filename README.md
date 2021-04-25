@@ -1,28 +1,88 @@
-## What is this?
-Mern Weather ForeCast App
+<!-- Please update value in the {}  -->
 
-Demo: Deployed soon
+<h1 align="center">Weather ForeCast app</h1>
 
-**Weathering With You** is a weather web app to get the current weather data of the zip code you submit into the form.
- Consists of 4 main components
- - the header at the top
- - the form to input your zipcode, choose the temperature metric, and save button
- - [left-hand panel] Display weather data
- - [right-hand panel] 10 most recent weather data queries
+<div align="center">
+   Solution for a Assignment from  <a href="#" target="_blank">simpluslabs</a>.
+</div>
 
-## Setup
-Prereq apps to have downloaded
-- [Node](https://nodejs.org/en/) 
-- [git](https://git-scm.com/downloads)
+<div align="center">
+  <h3>
+    <a href="#">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/rahul9852-dot/mern-weather-app">
+      Solution
+    </a>
+  </h3>
+</div>
 
-Clone the repo:
-```
-git clone https://github.com/rahul9852-dot/mern-weather-app
-```
+<!-- TABLE OF CONTENTS -->
 
-Download all npm packages for both client/server
-```javascript
-npm run setup
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Frameworks](#Frameworks-and-Libraries-used)
+- [Features](#features)
+- [How to use](#how-to-use) 
+- [Contact](#contact)
+
+
+<!-- OVERVIEW -->
+
+## Overview
+
+![screenshot](https://github.com/rahul9852-dot/mern-weather-app/blob/master/client/src/assets/Fonts/weather.png)
+
+### Built With
+
+- [MongoDB](https://www.mongodb.com/)
+- [Express](https://expressjs.com/)
+- [React](https://reactjs.org/)
+- [Node](https://nodejs.org/en/)
+
+### Frameworks and Libraries used
+
+- MongoDb
+- Express
+- React
+- Node
+- Scss
+- javascript
+
+## Features
+
+- Users can see city weather as default, preferably my current location
+- Users can search for Zipcode to see their current weather and their 10 most recent weather update 
+- Users can see weather of today and the next 10 days
+- Users can see the date and location of the weather
+- Users can see according to image for each type of weather
+- Users can see the min and max degree each day
+- Users can see wind status and wind direction
+- Users can see humidity percentage
+- Users can see a visibility indicator
+- Users can see the air pressure number
+- Users can request my current location weather
+- Users can convert temperature in Celcius to Fahrenheit and vice versa
+- Users can also store weather data in localstorage, monogodb to see their recent update in weather.
+
+## How To Use
+
+<!-- Example: -->
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ https://github.com/rahul9852-dot/Assignment-Weather-App.git
+
+# Install dependencies
+$ npm run setup
+
+# Run the app
+$ npm run dev
 ```
 
 ### .env file
@@ -45,12 +105,6 @@ DB=mongodb+srv://<username>:<password>@<cluster-id>.mongodb.net/test?retryWrites
 ```
 To get the cluster ID, go to **Clusters** and click on **Connect > Connect your application** to get a more detailed view of how the DB string should look like. 
 
-#### Weather API
-Make an account at   and go to the [api keys](https://home.openweathermap.org/api_keys) section.
-Copy/pasta that key to the .env file using `WEATHER_KEY` as your key
-```
-WEATHER_KEY=84b3114c5002625dccffae51fc27fa7b
-```
 
 ## Run Locally
 **Note:** The mongo connection is commented out in `server.js`. Just uncomment the code block to connect to mongo:
@@ -61,7 +115,7 @@ WEATHER_KEY=84b3114c5002625dccffae51fc27fa7b
 // }).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
 ```
 
-You can now run your local.  
+## You can now run your local.  
 Go to your root directory and start your web app:
 ```javascript
 npm run dev
@@ -72,3 +126,30 @@ This is command will your client and server concurrently.
 
 The service will auto-watch both frontend and backend, so no need to restart to see your changes.  
 Once you save your changes, it'll auto-refresh to view your changes.
+
+
+## Contact
+
+- GitHub [@rahul9852](https://github.com/rahul9852-dot)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
