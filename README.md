@@ -56,7 +56,6 @@
 
 - Users can see city weather as default, preferably my current location
 - Users can search for Zipcode to see their current weather and their 10 most recent weather update 
-- Users can see the weather of today and the next 10 days
 - Users can see the date and location of the weather
 - Users can see according to image for each type of weather
 - Users can see the min and max degree each day
