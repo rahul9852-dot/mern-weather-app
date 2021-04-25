@@ -10,7 +10,7 @@ router.get("/weather",  async (req, res) => {
     let weather = new Weather();
 
     // Fixing the params of zipcode and tempMetric for an example GET request
-    let weatherData = await weather.getWeatherData(98052, "us");
+    let weatherData = await weather.getWeatherData(152107, "IN");
 
     // Content that will be sent will be a prettified json
     res.header("Content-Type",'application/json');
