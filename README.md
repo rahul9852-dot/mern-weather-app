@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://newweatherapp1.herokuapp.com/">
       Demo
     </a>
     <span> | </span>
@@ -45,7 +45,7 @@
 
 ### Frameworks and Libraries used
 
-- MongoDb
+- MongoDB
 - Express
 - React
 - Node
@@ -56,7 +56,7 @@
 
 - Users can see city weather as default, preferably my current location
 - Users can search for Zipcode to see their current weather and their 10 most recent weather update 
-- Users can see weather of today and the next 10 days
+- Users can see the weather of today and the next 10 days
 - Users can see the date and location of the weather
 - Users can see according to image for each type of weather
 - Users can see the min and max degree each day
@@ -66,7 +66,7 @@
 - Users can see the air pressure number
 - Users can request my current location weather
 - Users can convert temperature in Celcius to Fahrenheit and vice versa
-- Users can also store weather data in localstorage, monogodb to see their recent update in weather.
+- Users can also store weather data in local storage, MongoDB to see their recent update in weather.
 
 ## How To Use
 
@@ -86,7 +86,7 @@ $ npm run dev
 ```
 
 ### .env file
-Need two creds. Weather api and mongo connection string
+Need two creds. Weather API and mongo connection string
 
 #### Mongo
 Log into [mongo](https://account.mongodb.com/account/login)
@@ -94,16 +94,16 @@ Log into [mongo](https://account.mongodb.com/account/login)
 On the left-hand sidebar, you should see **Database Access**. Click on it and make a new user for yourself.  
 1. Click on `Add New Database User`
 2. Create a new user by filling out `username` and `password`  
-(this will be different creds than your actual mongo account. This is gives a user access to this particular database.)
+(this will be different creds than your actual mongo account. This gives a user access to this particular database.)
 
 On the left-hand sidebar, you should see **Network Access**.  
-Make a new access point for your IP address to get permission on using your mongodb.
+Make a new access point for your IP address to get permission on using your MongoDB.
 
 Now create a `.env` file in your root directory of `mern-weather-app` and dynamically add this to your `.env`
 ```javascript
 DB=mongodb+srv://<username>:<password>@<cluster-id>.mongodb.net/test?retryWrites=true&w=majority
 ```
-To get the cluster ID, go to **Clusters** and click on **Connect > Connect your application** to get a more detailed view of how the DB string should look like. 
+To get the cluster-ID, go to **Clusters** and click on **Connect > Connect your application** to get a more detailed view of how the DB string should look like. 
 
 
 ## Run Locally
@@ -120,7 +120,7 @@ Go to your root directory and start your web app:
 ```javascript
 npm run dev
 ```
-This is command will your client and server concurrently. 
+This is the command will your client and server concurrently. 
 - client - localhost:3000
 - server - localhost:5000
 
