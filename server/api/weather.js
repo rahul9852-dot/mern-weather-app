@@ -20,7 +20,7 @@ class Weather {
 
         /**
          * Use get api for "By ZIP code" (https://openweathermap.org/current#zip)
-         * - The "us" query stands for "United States
+         * - The "IN" query stands for "India".
          * - "process.env.WEATHER_KEY" is the api key that we get from the .env file
          * - "units" query can be either imperial (Fahrenheit) or metric (Celsius)
          */
